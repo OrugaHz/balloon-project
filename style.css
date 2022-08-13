@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+.balloon-animation {
+    position: relative;
+    background-color: rgb(165, 224, 253);
+    height: 100vh;
+    width: 100vw;
+}
+
+.flying-cloud {
+    position: absolute;
+    width: 20%;
+}
+
+.flying-balloon {
+    position: absolute;
+    width: 15%;
+    top: 20%;
+    left: 40%;
+}
+
+.flying-cloud:nth-child(1) {
+    top: 35%;
+    left: 24%;
+}
+
+.flying-cloud:nth-child(2) {
+    left: 24%;
+}
+
+.flying-cloud:nth-child(3) {
+    top: 25%;
+    left: 43%;
+    z-index: 1;
+}
+
+.flying-cloud:nth-child(4) {
+    left: 60%;
+}
+
+.flying-cloud:nth-child(5) {
+    top: 25%;
+}
+
+.flying-cloud:nth-child(6) {
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+}
